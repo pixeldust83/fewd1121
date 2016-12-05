@@ -1,0 +1,36 @@
+#container{
+	width: 85%;
+	margin: 0 auto;
+  background-color: lightgray;
+  height: 350px;
+  padding: 5px;
+}
+
+#navbar {
+  background-color: #000000;
+  border: 5px solid black;
+  width: 50%; 
+  margin: 0 auto;
+  text-align: center; 
+}
+
+
+.lorem{
+  background-color: orange;
+  padding: 5px 5px;
+  margin: padding: 20px 20px;
+  margin: 20px 100px 0px 100px;
+  height: 150px
+  width: 150px
+  display: inline-block
+  }
+
+  body{
+  	color: white;
+  }
+
+#p-one {
+  color: blue;
+}
+
+  
