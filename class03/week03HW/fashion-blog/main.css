@@ -1,7 +1,7 @@
 
 
 body {
-	font-family: lato, helvetica;
+	font-family: Lato, Helvetica, sans-serif;
 	margin: 0;
 	width: 720px;
 	padding: 54px;
@@ -30,6 +30,27 @@ ul li {
 	color: red;
 	display: inline-block;
 }
+
+div {
+	color: #dddddd;
+}
+
+strong {
+	color: red;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+span {
+	color: #dddddd;
+}
+
+a:hover {
+	color: black;
+}
+
 
 
 
