@@ -1,36 +1,41 @@
-#container{
-	width: 85%;
-	margin: 0 auto;
-  background-color: lightgray;
-  height: 350px;
-  padding: 5px;
-}
-
-#navbar {
-  background-color: #000000;
-  border: 5px solid black;
-  width: 50%; 
+.container {
+  background-color: rgb(222, 222, 222);
+  width: 75%;
   margin: 0 auto;
-  text-align: center; 
+  padding: 15px;
 }
 
+.nav {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 25px;
+}
 
-.lorem{
-  background-color: orange;
-  padding: 5px 5px;
-  margin: padding: 20px 20px;
-  margin: 20px 100px 0px 100px;
-  height: 150px
-  width: 150px
-  display: inline-block
-  }
+.nav a {
+  color: white;
+  text-decoration: none;
+}
 
-  body{
-  	color: white;
-  }
+.article {
+  background-color: tomato;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
 
-#p-one {
+#article-one {
   color: blue;
 }
+
+#article-two {
+  color: green;
+}
+
+#article-three {
+  color: yellow;
+}
+
+
 
   

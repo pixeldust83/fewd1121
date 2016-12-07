@@ -1,0 +1,41 @@
+
+
+body {
+	font-family: lato, helvetica;
+	margin: 0;
+	width: 720px;
+	padding: 54px;
+}
+
+h1 {
+	color: red;
+}
+
+h2 {
+	color: #cccccc;
+}
+
+nav ul li {
+	color: #dddddd;
+	display: inline-block;
+	margin: 6px;
+
+}
+
+nav ul li a {
+	color: #dddddd ;
+}
+
+ul li {
+	color: red;
+	display: inline-block;
+}
+
+
+
+
+
+
+footer {
+	color: #dddddd;
+}
