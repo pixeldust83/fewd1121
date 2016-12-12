@@ -5,6 +5,7 @@
 
 .box {
   height: 150px;
+
 }
 
 
@@ -14,22 +15,23 @@ header {
 
 main {
   background: yellow;
-  // float: ;
-  // width: ;
+  float: left;
+  width: 40%;
 }
 
 aside {
   background: green;
-  // float: ;
-  // width: ;
+  float: right;
+  width: 40%;
 }
 
 footer {
   background: blue;
+  clear: both;
 }
 
 .clear {
-  // clear: ;
+ clear: both;
 }
 
 
