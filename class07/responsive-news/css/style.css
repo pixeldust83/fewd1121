@@ -107,6 +107,28 @@ p {
 @media (max-width: 480px) {
 	#container {
 		width: 100%;
-	}
+	
 }
+
+#articles, #side-column {
+		float: none;
+		width: 100%;
+	}
+
+#articles {float: none;
+	text-align: center;
+}
+
+.main-article{
+	float: none;
+	width: 100%;
+}
+
+h1, h2, h3{
+	text-align: center;
+}
+
+
+
+
 

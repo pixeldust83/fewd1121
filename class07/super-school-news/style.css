@@ -1,5 +1,6 @@
 .container {
 	width: 960px;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -28,15 +29,21 @@ header nav a {
 
 section {
 	background-color: black;
-}
+	padding: 1%;
+	overflow: hidden;
 
+}
 article {
 	background-color: white;
-}
+	width; 49%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	}
 
 /* targets the 1st article; nth-child(2) would target the 2nd article*/
 article:nth-child(1) {
-	margin-right: 10px;
+	margin-right: 2%;
 }
 
 article h1 {
@@ -44,3 +51,45 @@ article h1 {
 	text-align: center;
 	padding: 5px 0;
 }
+
+
+/* always put the media queries at the bottom of the page!!!!!!!*/
+
+	@media (max-width: 768px;){
+	header h1 {
+	float: none;
+	text-align: center;
+	}
+
+
+	header nav{
+		float: none;
+		text-align: center;
+
+	}
+
+	article{
+		float: none;
+		width: 100%;
+	}
+
+	article:nth-child(1) {
+	margin-right: 0;
+	margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
