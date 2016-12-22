@@ -22,9 +22,44 @@ header nav {
 }
 
 header nav a {
-	display: inline-block;
 	color: white;
 	text-decoration: none;
 	font-size: 20px;
 	margin-left: 50px;
+}
+
+#large-nav{
+	display: inline-block;
+}
+
+#mobile-nav{
+	display: none;
+	background-color: lightgray;
+	text-align: center;
+}
+
+#mobile_nav a{
+	display: block;
+	line-height: 1.5;
+}
+
+
+#burger{
+	display: none;
+	float: right;
+}
+
+@media (max-width: 880px){
+	#large-nav{
+		display: none;
+	}
+
+	#burger{
+		display: block;
+	}
+
+	#mobile-nav,
+	#mobile-nav a {
+		display: block;
+	}
 }
