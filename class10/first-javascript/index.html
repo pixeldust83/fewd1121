@@ -2,10 +2,38 @@
 <html>
 <head>
 	<title>Our First JavaScript</title>
+
+
 </head>
 <body>
 
-	<h1>Hello, World!</h1>
+	<h1 id="myId">Hello, World!</h1>
+<script type="text/javascript">
+		var fname = "Heidi";
+		var lname = "Schmidt";
+		var num1 = 10 * 10;
+		var num2 = 50 - 17;
+		var num3 = 50 + 17;
+		
+		document.getElementById("myId").onclick = function(){
+			document.getElementById("myId").innerHTML = "new text";
+		}
+		
+		// function definition
+		function doSomething(){
+			document.write(num1);
+			document.write("<br>")
+			document.write(num2);
+			document.write("<br>")
+			document.write(num3);
+			document.write("<br>")
+			document.write("heidi schmidt");
+			console.log("hi there");
+		}
 
+		// function call
+		doSomething();
+	
+	</script>
 </body>
 </html>
