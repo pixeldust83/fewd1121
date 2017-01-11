@@ -24,7 +24,7 @@ input {
 	color: black;
 }
 
-a {
+input[type="submit"]{
 	cursor: pointer;
 	display: block;
 	font-family: Arial, sans-serif;
