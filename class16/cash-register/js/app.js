@@ -15,4 +15,10 @@
 
 $(document).ready(function () {
 
+	//1:
+	var total = 0;
+
+	//2.
+	$("#entry").submit(function);
+
 })
